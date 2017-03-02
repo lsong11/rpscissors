@@ -46,7 +46,7 @@ print "I chose %s!" % (computer_play,)
 
 result = get_result(user_play, computer_play)
 if result is None:
-    print "It's a tie"
+    print "Draw"
 elif result:
     print "You win!"
 else:
